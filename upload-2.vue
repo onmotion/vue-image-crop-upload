@@ -513,11 +513,11 @@ export default {
 					x = 0,
 					y = 0;
 				// 图片像素不达标
-				if (nWidth < width || nHeight < height) {
-					that.hasError = true;
-					that.errorMsg = lang.error.lowestPx + width + '*' + height;
-					return false;
-				}
+				//if (nWidth < width || nHeight < height) {
+				//	that.hasError = true;
+				//	that.errorMsg = lang.error.lowestPx + width + '*' + height;
+				//	return false;
+				//}
 				if (ratio > nRatio) {
 					h = w / nRatio;
 					y = (sim.height - h) / 2;
